@@ -59,6 +59,7 @@ export class LES extends EventEmitter {
         break
       }
 
+      // TODO: gg we got finessed here or its one type of handler for all msg codes here
       case LES.MESSAGE_CODES.ANNOUNCE:
       case LES.MESSAGE_CODES.GET_BLOCK_HEADERS:
       case LES.MESSAGE_CODES.BLOCK_HEADERS:
